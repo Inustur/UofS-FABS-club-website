@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale-1.0">
+  <title>Membership</title>
+  <link rel="stylesheet" href="membership-style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script defer src="script.js"></script>
+  <script defer src="submitform.js"></script>
+</head>
+
+<body>
+  <body>
+    <!--NavBar-->
+    <div id="content">
+      <nav id="navbar">
+        <div class="container">
+          <div class="logo">
+            <img src="logo.png" alt="Logo">
+          </div>
+          <div class="navbar-content">
+            <ul class="navbar-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About</a></li>
+              <li><a href="#contact-section">Contact</a></li>
+  
+              <li><a href="membership.html">Membership</a></li>
+            </ul>
+            <div class="hamburger-menu">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <ul class="mobile-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="intersection-image">
+        <img src="landing-intersection.png" alt="Intersection Image" class="parallax-image">
+      </div>
+
+      <!--Form-->
+      <section id="contact-section" class="contact-section">
+        <div class="centered-heading">
+          <div class="line"></div>
+          <h1>Form</h1>
+          <div class="line"></div>
+        </div>
+
+        <div class="container">
+          <div class="section" id="form-section">
+            <form id="contact-form" action="https://formsubmit.co/uofsfabsclub@gmail.com" method="post">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <div class="form-row">
+                <input type="text" id="fname" name="name" placeholder="First Name" required>
+                <input type="name" id="lname" name="lastname" placeholder="Last Name" required>
+              </div>
+
+              <div class="form-row">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="year" name="year" placeholder="Year of Study" required>
+              </div>
+  
+              <div class="form-row">
+                <input type="text" id="major" name="major" placeholder="Major" required>
+              </div>
+  
+              <div class="form-row">
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+              </div>
+              <div class="form-row">
+                <button type="submit">Send</button>
+              </div>
+              <div class="form-status"></div>
+            </form>
+          </div>
+  
+          <div class="section" id="infor-section">
+            <div>
+              <h2>Ready to join?</h2>
+              <p>You can directly send us your information by filling the form here, or you can reach us out by either email or our social links.</p>
+            </div>
+
+            <div>
+              <h2>Email:</h2>
+              <a href="mailto:uofsfabsclub@gmail.com"><i class="fa fa-envelope"></i>:uofsfabsclub@gmail.com</a>
+            </div>
+            <div>
+              <h2>Social Links:</h2>
+            </div>
+            
+            <div class="contact-social">
+              <a href="https://www.facebook.com/groups/940651586044496/" class="social-icon" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              <a href="#" class="social-icon" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/uofs_fabs_club/?hl=en" class="social-icon" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+
+      <!-- Sticky Icons -->
+      <div class="sticky-icons">
+        <a href="#contact-section"><i class="fa fa-arrow-up"></i></a>
+        <a href="#contact-section"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+</body>
