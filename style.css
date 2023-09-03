@@ -1217,3 +1217,15 @@ button[type="submit"]:hover {
     border-radius: 25px 50px 25px 50px;
   }
 }
+
+@media (max-width: 1200px) {
+  .intersection-image2 img {
+    max-width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(60%, 200.5%);
+    border-radius: 25px 50px 25px 50px;
+  }
+}
