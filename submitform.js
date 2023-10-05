@@ -19,10 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
       .then(function (response) {
         // Check the response status
         if (response.ok) {
-          // Show success message
-          formStatus.textContent = "Message sent successfully!";
-          formStatus.classList.remove("error");
-          contactForm.reset();
+          // Redirect to thankyou.html upon successful submission
+          window.location.href = "thankyou.html";
         } else {
           // Show error message
           formStatus.textContent = "Failed to send message. Please try again.";
