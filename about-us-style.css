@@ -169,7 +169,7 @@ nav.shrink {
 
 /*Landing*/
 .about-lading-section {
-  background-image: url("about-landing-img.png");
+  background-image: url("img/about-landing-img.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -205,7 +205,7 @@ nav.shrink {
 .about-section {
   background-color: #fff9f2;
   padding: 60px 0;
-  background-image: url('about-bg.png');
+  background-image: url('img/about-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -286,7 +286,7 @@ nav.shrink {
 .about2-section {
   background-color: #fff9f2;
   padding: 60px 0;
-  background-image: url('about2-bg.png');
+  background-image: url('img/about2-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
